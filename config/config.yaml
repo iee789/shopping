@@ -1,0 +1,11 @@
+Env: "dev"
+
+DatabaseSettings:
+  DatabaseURI: "root:mysql@tcp(127.0.0.1:3306)/go_database?parseTime=True&loc=Local"
+  DatabaseName: "go_database"
+  Username: "root"
+  Password: "mysql"
+
+
+JwtSettings:
+  SecretKey: "golang-tech-stack.com"
